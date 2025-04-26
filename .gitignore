@@ -1,0 +1,50 @@
+# Binaries for programs and plugins
+copier
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of build tools
+bin/
+build/
+dist/
+
+# Dependency directories
+vendor/
+node_modules/
+
+# IDE/editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Python virtualenv and cache
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Go coverage and test files
+*.coverprofile
+coverage.out
+
+# Misc
+.cache/
+.mypy_cache/
+
+# Ignore .copyignore itself (optional, remove if you want to track it)
+.copyignore
